@@ -1,0 +1,32 @@
+/* Home page */
+body {
+   background-color: greenyellow; 
+}
+.b {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    border-width: 8px;
+    background-color:hsla(133, 93%, 40%, 0.775) ;
+}
+.a {
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    border-width: 8px;
+    background-color:hsla(133, 93%, 40%, 0.775) ; 
+    position: absolute; 
+    right: 40px;
+    top: 20px;
+    visibility: hidden;
+}
+button:hover {
+    background-color:#397367;
+}
+button:active {
+    box-shadow: 0px 5px 5px ;
+}
